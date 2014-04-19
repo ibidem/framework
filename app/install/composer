@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -sS https://getcomposer.org/installer | php -- --install-dir=app/bin
+php app/bin/composer.phar self-update
+php app/bin/composer.phar --version

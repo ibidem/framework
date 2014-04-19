@@ -1,0 +1,17 @@
+{
+	"config": {
+		"bin-dir"     : "app/bin"
+	},
+	"require": {
+		"php"         : ">=5.4.10",
+		"mjolnir/all" : "3.0.*"
+	},
+	"require-dev": {
+		"mjolnir/dev" : "3.0.*"
+	},
+	"extra": {
+		"mjolnir": {
+			"include": [ "demo" ]
+		}
+	}
+}

@@ -1,0 +1,40 @@
+# project
+vendor/*
+manual.html
+manual.pdf
+
+# eclipse
+.settings/
+.project
+.buildpath
+
+# netbeans
+nbproject
+
+# komodo
+*.komodoproject
+.komodotools
+
+# junk files
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.sublime-workspace
+.hg
+.svn
+.CVS
+.idea

@@ -1,0 +1,3 @@
+#!/bin/sh
+php app/bin/composer.phar --version
+php app/bin/composer.phar install --working-dir=. --prefer-source --no-dev
